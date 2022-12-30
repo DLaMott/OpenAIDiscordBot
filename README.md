@@ -4,9 +4,12 @@ This bot uses the openai library to create a smart and fast bot. Currently this 
 
 ## Install and use
 
-Download the repo and adjust you .env to utilize your discord bot token and your openai apikey.
+Download the repo and adjust your .env to utilize your discord bot token and your openai apikey.
 
 ## Add this bot
 
+Navigate to the provided link and add this bot into your server
+
 https://discord.com/developers/applications/1058392053056286720/information
 
+- Using the bot "!question: your question"
