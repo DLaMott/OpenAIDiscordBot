@@ -8,6 +8,10 @@ For more on the openai model please see [here](https://beta.openai.com/docs/mode
 
 Download the repo and adjust your .env to utilize your discord bot token and your openai apikey.
 
+If you are wanting to run local and not use repl you will need to remove the server.js and any references in index.js to server.js.
+
+Once removed you can run node index.js to begin running the bot in discord.
+
 ## Deployment location
 
 [Here](https://replit.com/@DLaMott1/openaiPocDiscordBot)
