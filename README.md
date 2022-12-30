@@ -8,6 +8,10 @@ For more on the openai model please see [here](https://beta.openai.com/docs/mode
 
 Download the repo and adjust your .env to utilize your discord bot token and your openai apikey.
 
+## Deployment location
+
+[Here](https://replit.com/@DLaMott1/openaiPocDiscordBot)
+
 ## Add this bot
 
 Navigate to the provided link and add this bot into your server
