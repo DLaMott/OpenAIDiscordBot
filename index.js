@@ -25,14 +25,12 @@ const prefix = "!";
 
 client.on("messageCreate", async function(message) {
 
-  console.log(message.content);
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
 
   const commandBody = message.content.slice(prefix.length);
   var question = commandBody.split(':');
   question.shift();
-  const idfk = question.join(':');
 
   console.log(question);
   const args = commandBody.split(' ');
