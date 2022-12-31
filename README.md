@@ -6,15 +6,20 @@ For more on the openai model please see [here](https://beta.openai.com/docs/mode
 
 ## To install and make your own
 
+This page has detailed instructions on how I made this bot and deployed it to run 24/7. 
+
+[Setup Page](https://dlamott.github.io/openai-discord-bot.html)
+
+## For just trying locally
+
 Download the repo and adjust your .env to utilize your discord bot token and your openai apikey.
 
 If you are wanting to run local and not use repl you will need to remove the server.js and any references in index.js to server.js.
 
-Once removed you can run node index.js to begin running the bot in discord.
+Once server.js is removed run the following in the project's directory to begin testing this bot
 
-## Deployment location
-
-[Here](https://replit.com/@DLaMott1/openaiPocDiscordBot)
+- npm install discord.js axios dotenv openapi
+- node index.js
 
 ## Add this bot
 
