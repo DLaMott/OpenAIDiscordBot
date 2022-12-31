@@ -32,6 +32,7 @@ Navigate to the provided link and add this bot into your server
 ![image](https://user-images.githubusercontent.com/66742430/210098539-a81a517f-9385-4621-81b7-133b395f0eb1.png)
 
 - Using the image: "!image: your image request"
+![imageAi](https://user-images.githubusercontent.com/66742430/210140886-6dc2bf91-84b5-4f00-8478-ec20fbe7a2e3.png)
 
 ## To do
 - Add more models to enhance functionality
