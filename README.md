@@ -31,6 +31,7 @@ Navigate to the provided link and add this bot into your server
 - Using the bot "!question: your question"
 ![image](https://user-images.githubusercontent.com/66742430/210098539-a81a517f-9385-4621-81b7-133b395f0eb1.png)
 
+- Using the image: "!image: your image request"
+
 ## To do
 - Add more models to enhance functionality
-- Utilize the image request service

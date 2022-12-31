@@ -42,6 +42,8 @@ client.on("messageCreate", async function(message) {
   }
 
   if(command ==="question:"){
+
+    try{
    
     const response = await openai.createCompletion({
       model: "text-davinci-003",
@@ -55,6 +57,38 @@ client.on("messageCreate", async function(message) {
     console.log(response.data);
 
     message.reply(response.data.choices[0].text);
+    } catch (error) {
+      if(error.response){
+        console.log(error.response.status);
+        console.log(error.response.data);
+      } else {
+        console.log(error.messageq);
+      }
+    }
+  }
+
+  if(command ==="image:"){
+
+    try{
+   
+    const response = await openai.createImage({
+      model: "text-davinci-003",
+      prompt: `${message}`,
+      n:1,
+      size: `1024x1024`,
+    });
+
+    console.log(response.data);
+
+    message.reply(response.data.data[0].url);
+    } catch(error){
+      if(error.response){
+        console.log(error.response.status);
+        console.log(error.response.data);
+      } else {
+        console.log(error.messageq);
+      }
+    }
   }
 
 });
