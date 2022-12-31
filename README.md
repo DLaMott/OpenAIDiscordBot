@@ -1,6 +1,6 @@
 ## Discord openai bot
 
-This bot uses the openai library to create a smart and fast bot. Currently this bot only utilizes the text-davinci-003 model. This AI has been trained to answer any and all questions. Using the model this bot has been adjusted to answer questions but also in a "condescending" manner.
+This bot uses the openai library to answer questions and generate images. Currently this bot utilizes the text-davinci-003 modeland the image AI. Using the davinci model this bot has been adjusted to answer questions but also in a "condescending" manner.
 
 For more on the openai model please see [here](https://beta.openai.com/docs/models/gpt-3)
 
